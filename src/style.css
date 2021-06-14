@@ -1,0 +1,65 @@
+.box{
+  border-style: solid;
+  border-color: green;
+  padding-top: 1.5em;
+  width: 7em;
+  height: 6em;
+  background-color: black;
+  color: white;
+  font-family: Vollkorn, sans-serif;
+  font-size: 3em;
+  animation: colorchange infinite 30s;
+}
+
+#words{
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes colorchange {
+  0% {
+    color: green;
+    border-color: green;
+  }
+  10% {
+    color: blue;
+    border-color: blue;
+  }
+  20% {
+    color: yellow;
+    border-color: yellow;
+  }
+  
+  30%{
+    color: orange;
+    border-color: orange;
+  }
+  40% {
+    color: red;
+    border-color: red;
+  }
+  50% {
+    color: purple;
+    border-color: purple;
+  }
+  60% {
+    color: pink;
+    border-color: pink;
+  }
+  70% {
+    color: lime;
+    border-color: lime;
+  }
+  80% {
+    color: coral;
+    border-color: coral;
+  }
+  90% {
+    color: pink;
+    border-color: pink;
+  }
+  100%{
+    color: green;
+    border-color: green;
+  }
+}
